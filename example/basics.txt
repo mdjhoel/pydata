@@ -1,0 +1,21 @@
+
+Sequential Selection Repetition Graphics Modularization Input Output
+
+Basic programming with Python
+-----------------------------
+Basic math operators (+,-,/,*)
+Variables 
+Data types including list
+Type casting (int, float, str)
+Append to a list
+Access items in a list using index numbers
+For loop through a list
+If statements and comparison operators
+Functions that receive a value and return a value
+Calling a function and passing data
+File input output (open, close, readlines, write)
+Import 
+
+
+
+
