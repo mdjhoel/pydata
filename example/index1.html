@@ -1,0 +1,46 @@
+<html>
+    <style>
+        .container {
+          margin: 50px;
+          font-family: Arial;
+        }
+
+        .women {
+          fill: #ff0303;
+          height: 100;
+          width: 100;
+          transition: width 2s;
+        }
+
+        .women:hover {
+          width: 740;
+          height: 100;
+        }
+
+    </style>
+
+    <div class='container'>
+
+        <h1>Women and Children first?</h1>
+        <p>This is the result of our Titanic analysis. We wrote and implemented algorithms in Python to determine the percentage of each group that survived.</p>
+        <span>
+          <a href='titanic.jpg' target='_blank'><img src='titanic.jpg' width='170'></a>
+        </span>
+        <span>
+          <a href='goingdown.jpg' target='_blank'><img src='goingdown.jpg' width='170'></a>
+        </span>
+        <span>
+          <a href='titanicdeck.jpg' target='_blank'><img src='titanicdeck.jpg' width='170'></a>
+        </span>
+        <br>
+
+        <h2>Study conclusion</h2>
+        <svg width='800' height='500'>
+            <rect class="women"></rect>
+            <text x='20' y='25' fill='white'>Women</text>
+            <text x='650' y='60' fill='white' font-size='40'>74%</text>
+            <rect y='125' width='590' height='100' fill='green'></rect>
+            <rect y='250' width='190' height='100' fill='yellow'></rect>
+        </svg>
+    </div>
+</html>
