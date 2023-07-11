@@ -10,6 +10,19 @@
         font-family: arial;
       }
 
+      .women {
+            width:100px;
+            height: 100px;
+            fill: red;
+            transition: width 2s;
+            rx: 15px;
+      }
+
+      .women:hover {
+            width: 740px;
+            height: 100px;
+      }
+
       .mystuff {
         padding: 40px;
       }
@@ -219,6 +232,7 @@
         <h4>Process</h4>
         <ul>
           <li>Questions from Day6</li>
+          <li>Save day5.py to day7.py and clean up Python (remove UI and add variables to file output)</li>
           <li>Review <a href="example/index1.html" target="_blank">Updated example with CSS</a></li>
           <li>Review <a href="https://www.w3schools.com/w3css/defaulT.asp" target="_blank">CSS textbook</a> to for basics</li>
           <li>Upgrade basic presentation web page with CSS</li>
@@ -226,10 +240,30 @@
           <li>Homework: Upgrade your presentation to look good and add functionality. Upload to Github. Show and tell tomorrow.</li>
         </ul>
         <h4>Teacher summary</h4>
+        <p>Fun class today playing with CSS to make our analysis presentation look good. We learned the basics of CSS syntax and styled our SVG rect tag (see below). Special thanks to Aaron for debugging and KC and Daniel for finding interesting differences between how browsers render HTML, CSS and SVG (Safari is weird apparently). Please work on your index.html to make it beautiful as tomorrow will be our last day for the Titanic database.</p>
+        <svg width='800' height='150'>
+          <rect class='women'></rect>
+          <text class='mytext' x='25' y='25' fill='white'>Women</text>
+          <text x='650' y='40' font-size='40' fill='white'>74%</text>
+        </svg>
       </div>
-      <button type="button" class="collapsible">Day 8 - Pandas module</button>
+      <button type="button" class="collapsible">Day 8 - Complete Titanic project and intro to Pandas</button>
       <div class="content">
-        <p>TBD</p>
+        <h3>Day 8</h3>
+        <h4>Objecives</h4>
+        <p>In this class, you can expect to review CSS to complete our Titanic project by updating our Python program to write out our HTML presentation for our analysis. We will also prepare for our look at big data by downloading a giant CSV containing 5M sales records and the Pandas library.</p>
+        <h4>Process</h4>
+        <ul>
+          <li>Questions from Day 7</li>
+          <li>Save day5.py to day8.py and clean up Python (remove UI and add variables to file output)</li>
+          <li>Upload your day8.py and your index.html to Github. Show and tell tomorrow.</li>
+          <li>Download big data file to your Desktop/titanic folder</li>
+          <li>What is <a href="https://www.youtube.com/watch?v=IShjRUzJtbw" target="_blank">Pandas</a></li>
+          <li>pip3.11 install pandas - from terminal.app (Mac) or command prompt (PC)</li>
+          <li>Opening big data race between vanilla Python and Pandas</li>
+          <li>Show how to do Titanic analysis more easily with Pandas</li>
+        </ul>
+        <h4>Teacher summary</h4>
       </div>
       <button type="button" class="collapsible">Day 9 - Big data</button>
       <div class="content">
