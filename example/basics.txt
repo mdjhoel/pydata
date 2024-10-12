@@ -1,20 +1,31 @@
+SSRGMIO
 
-Sequential Selection Repetition Graphics Modularization Input Output
+Programming languages execute SEQUENTIALLY, but permit conditional SELECTION of executio path, REPETITION of instructions,GRAPHICS (modern) MODULARIZATION of instructions into reusable functions and INPUT and OUTPUT of files.
 
 Basic programming with Python
 -----------------------------
 Basic math operators (+,-,/,*)
+User input
 Variables 
 Data types including list
 Type casting (int, float, str)
-Append to a list
+Append, remove and sort lists
 Access items in a list using index numbers
-For loop through a list
-If statements and comparison operators
+For loop through a list, for loop a specific number of times
+If statements and comparison operators (==,!=,AND,OR)
 Functions that receive a value and return a value
 Calling a function and passing data
 File input output (open, close, readlines, write)
 Import 
+
+Basic Web Page creation with HTML, CSS and SVG
+----------------------------------------------
+Basic HTML tags and attributes <html><a href><h1><img src><p><div>
+Basic CSS to style HTML tags 
+Basic SVG to create differet coloured and sized rectangles / graph
+
+Upload HTML to Github and serve to WWW using Github Pages
+---------------------------------------------------------
 
 
 
